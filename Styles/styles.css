@@ -1,0 +1,112 @@
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+  } */
+  body {
+    height: 5000px;
+  }
+  
+  .login {
+    position: relative;
+    top: 50px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid orange;
+    background-color: #3607e2;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 3px 8px 10px orange (0, 0, 0, .75);
+  }
+  
+  .login img {
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    box-shadow: 3.5px 8px 5px 0px blue(0,0,0,0.50);
+  }
+  
+  .login input {
+    margin: 10px 0;
+    width: 120px;
+    height: 25px;
+    background-color: lightgray;
+    border: none
+  }
+  
+  .login input::placeholder {
+    text-align: center;
+  }
+  
+  .login input[type="submit"] {
+    height: 20px;
+    width: 140px;
+    background-color: #50c9e6;
+  }
+  
+  .login p {
+    font-size: 10px;
+    color: #f1cd94
+  }
+  
+  .login p:hover {
+    text-decoration: underline;
+  }
+  
+  .generic * {
+    margin: 0;
+    padding: 0;
+  }
+  /* ================================ */
+  
+  .generic {
+    position: relative;
+    top: 80px;
+    background-color: red;
+    color: white;
+    width: 275px;
+    height: 250px;
+    border: 1px solid black
+  }
+  
+  .generic input, .generic select {
+    width: 95%;
+    background-color: #ca2a3c;
+    margin: 0;
+    color: white;
+    font-size: 8px;
+    border: none;
+  }
+  
+  .generic input::placeholder {
+    color: white;
+    text-align: start;
+    font-size: 8px;
+  }
+  
+  textarea {
+    border: none;
+    width: 95%;
+    background-color: #ca2a3c;
+    color: white
+  }
+  
+  textarea::placeholder {
+    color: white;
+    font-size: 8px;
+  }
+  
+  .generic p {
+    color: white
+  }
+  
+  .generic input[type="submit"] {
+    height: 30px;
+    width: 95%;
+    background-color: white;
+    color: red
+  
